@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Goosebumps-Inspired Horror Adventure</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="overlay"></div>
+  <div class="container">
+    <div id="story-container">
+      <h1 id="story-title">The Haunted Manor</h1>
+      <p id="story-text">It's a dark, stormy night. You find yourself in front of a decrepit manor. The wind howls as the front door creaks open on its own. Do you dare to enter?</p>
+      <div id="choices">
+        <button class="choice-btn" onclick="makeChoice(1)">Enter the manor</button>
+        <button class="choice-btn" onclick="makeChoice(2)">Run away into the forest</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button onclick="changeTheme('day')">Day Theme</button>
+      <button onclick="changeTheme('night')">Night Theme</button>
+      <button onclick="playMusic()">Play Music</button>
+      <button onclick="pauseMusic()">Pause Music</button>
+    </div>
+  </div>
+  <audio id="background-music" loop>
+    <source src="darkness-horror-trailer-208233.mp3" type="audio/mpeg">
+  </audio>
+  <script src="script.js"></script>
+</body>
+</html>
