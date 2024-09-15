@@ -35,9 +35,9 @@ Can you survive the night and escape, or will you be trapped forever?
 - Theme Switch: Toggle between day and night themes using the buttons provided.
 - Music Controls: Use the play and pause buttons to control the background music.
 
-## Screenshots
+## Demonstration
 
-![Game Screenshot](screenshot.png)
+Visit LinkedIn Profile for Video Demonstration.
 
 ## Technologies Used
 
